@@ -1,0 +1,15 @@
+# Pinning Google Gemini / GenAI SDK versions
+google-genai==1.50.1    # latest stable as of Nov 2025 :contentReference[oaicite:0]{index=0}  
+google-generativeai==0.8.5    # legacy SDK, but matches more recent versions :contentReference[oaicite:1]{index=1}  
+
+# HTTP requests for job APIs
+requests>=2.28.2
+
+# Document generation for resume & cover letters
+python-docx>=0.8.11
+
+# Optional / environment management
+python-dotenv>=0.21.0
+
+# Optional / pretty logging for notifications
+rich>=10.12.0
